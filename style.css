@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: rgb(200, 46, 46);
+    height: 3rem;
+    color: white;
+}
+
+.right{
+   margin-top: 0.5rem;
+}
+
+.right > button{
+    color: white;
+    background-color:rgb(200, 46, 46) ;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.8rem;
+    font-size: 1rem;
+}
+.search{
+    display: flex;
+    background-color: rgb(174, 169, 169);
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.searching{
+    width: 400px;
+   font-size: 0.7rem;
+   padding: 0.5rem;
+   border-radius: 5px;
+   border: none;
+   max-width: 60%;
+}
+.search > button{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+   border: none;
+   color: white;
+   background-color: rgb(200, 46, 46);
+   padding: 0.2rem 0.1rem;
+   cursor: pointer;
+} 
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./mover.jpg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+.hero > h2{
+   background-color: black;
+}
+.hero > button {
+    background-color: rgb(200, 46, 46);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 0.2rem 0.1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.mover{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+}
+.movie{
+    display: flex;
+    overflow-x: scroll;
+}
+.images{
+    height: 300px;
+}
+.card{
+    text-align: center;
+    border: 5px solid rgb(218, 211, 211);
+    background-color:rgb(218, 211, 211) ;
+    margin: 0rem 1rem;
+    border-radius: 10px;
+}
+.bottom{
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+.bottom > img{
+    width: 100%;
+}
+
+@media(max-width:600px){
+    .logo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        height: 10vh;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+}
